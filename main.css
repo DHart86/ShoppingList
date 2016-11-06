@@ -34,14 +34,16 @@ button:hover {
   padding: 20px;
 }
 
-.shopping-item {
-  display: block;
-  color: grey;
-  font-style: italic;
-  font-size: 20px;
-  margin-bottom: 15px;
+
+.checkStyle {
+  text-decoration: line-through;
 }
 
-.shopping-item__checked {
-  text-decoration: line-through;
+li {
+  border: 1px solid gray;
+  padding: 20px;
+  color: grey;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 15px;
 }
